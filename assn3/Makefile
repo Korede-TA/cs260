@@ -1,31 +1,34 @@
 .PHONY: clean
 
 openhash:
-	@python openhash.py
+	@python3 openhash.py
 
 closedhash:
-	@python closedhash.py
+	@python3 closedhash.py
 
 bst:
-	@python bst.py
+	@python3 bst.py
 
 trie:
-	@python trie.py
+	@python3 trie.py
 	
 adjmatrix:
-	@python adjmatrix.py
+	@python3 adjmatrix.py
 	
 pot:
-	@python pot.py
+	@python3 pot.py
 
 floyd:
-	@python floyd.py
+	@python3 floyd.py
 
 dfs:
-	@python dfs.py
+	@python3 dfs.py
 
 fftdyadic:
-	@python fftdyadic.py
+	@python3 fftdyadic.py
+
+fftany:
+	@python3 fftany.py
 
 clean:
 	@\rm -f *.pyc
