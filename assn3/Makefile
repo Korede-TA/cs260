@@ -1,22 +1,31 @@
 .PHONY: clean
 
-timing:
-	@python timing.py
+openhash:
+	@python openhash.py
 
-arraylist:
-	@python arraylist.py
+closedhash:
+	@python closedhash.py
 
-pointerlist:
-	@python pointerlist.py
+bst:
+	@python bst.py
 
-arraystack:
-	@python arraystack.py
-
-pointerstack:
-	@python pointerstack.py
+trie:
+	@python trie.py
 	
-test:
-	@python test.py
+adjmatrix:
+	@python adjmatrix.py
+	
+pot:
+	@python pot.py
+
+floyd:
+	@python floyd.py
+
+dfs:
+	@python dfs.py
+
+fftdyadic:
+	@python fftdyadic.py
 
 clean:
 	@\rm -f *.pyc
