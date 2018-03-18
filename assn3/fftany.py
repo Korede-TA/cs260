@@ -43,5 +43,6 @@ if __name__ == "__main__":
             0.00000000e+00 +1.66837030e-15j,
             1.14383329e-17 +1.22460635e-16j,
             -1.64863782e-15 +1.77635684e-15j])
-    print("FFT_any: \n", FFT(8, testArr))
-    print("numpy.ftt.ftt: \n", np.fft.fft(testArr, 8))
+    print("input array: \n%s\n" % testArr)
+    print("FFT_any: \n%s\n" % FFT(8, testArr))
+    print("numpy.ftt.ftt: \n%s\n" % np.fft.fft(testArr, 8))
