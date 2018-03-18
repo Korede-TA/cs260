@@ -21,3 +21,9 @@ class OpenHash:
     @staticmethod
     def MAKENULL(H):
         pass
+
+def time(out):
+    pass
+
+if __name__ == "__main__":
+    time()
