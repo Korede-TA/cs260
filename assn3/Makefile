@@ -13,11 +13,11 @@ trie:
 	@python3 trie.py
 	
 adjmatrix:
-	@python3 adjmatrix.py
+	g++ adjmatrix.cpp -o adjmatrix
 	
 pot:
-	@python3 pot.py
-
+	g++ pot.cpp -o pot
+	
 floyd:
 	@python3 floyd.py
 
