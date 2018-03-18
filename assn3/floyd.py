@@ -1,4 +1,5 @@
 from math import inf
+import numpy as np
 
 # class Node:
 #     def __init__(self, val=None, next=[]):
@@ -7,7 +8,7 @@ from math import inf
 
 def Floyd(A, C):
     """
-    Floyd computes shortest path matrix A given  arc cost matrix C
+    Floyd computes shortest path matrix A given arc cost matrix C
     """
     n = len(A)
     for i in range(n):
@@ -23,7 +24,7 @@ def Floyd(A, C):
                     A[i][j] = A[i][k] + A[k][j]
 
 if __name__ == "__main__":
-    A = [[0]*6 for i in range(6)]
+    A = [[0]*7 for i in range(6)]
     A[1][2] = 4
     A[1][3] = 1
     A[1][4] = 5
@@ -32,5 +33,7 @@ if __name__ == "__main__":
     A[3][2] = 2
     A[4][5] = 2
     A[5][6] = 1
-    C = []
+    C = [[0]*6 for i in range(6)]
+    # C = []
     Floyd(A, C)
+    print(np.array(A))
