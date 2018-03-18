@@ -87,7 +87,7 @@ int minDistance(int dist[], bool sptSet[])
 }
   
 
-int printSolution(int dist[], int n)
+void printSolution(int dist[], int n)
 {
    for (int i = 0; i < V; i++)
 		printf("%d \t\t %d\n", i, dist[i]);

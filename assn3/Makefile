@@ -14,9 +14,11 @@ trie:
 	
 adjmatrix:
 	g++ adjmatrix.cpp -o adjmatrix
+	./adjmatric
 	
 pot:
 	g++ pot.cpp -o pot
+	./pot
 	
 floyd:
 	@python3 floyd.py
@@ -32,3 +34,4 @@ fftany:
 
 clean:
 	@\rm -f *.pyc
+	@\rm -f pot adjmatrix
