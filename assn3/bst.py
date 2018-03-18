@@ -1,6 +1,11 @@
+class Node:
+    def __init__(self, val=None, *children):
+        self.val = val
+        self.children = list(children)
+
 class BST:
     """
-    BST-based implementation of DIctionary ADT
+    BST-based implementation of Dictionary ADT
     """
 
     def __init__(self):
@@ -21,3 +26,6 @@ class BST:
     @staticmethod
     def MAKENULL(H):
         pass
+
+if __name__ == "__name__":
+    print("BST")
