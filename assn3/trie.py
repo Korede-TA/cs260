@@ -170,3 +170,4 @@ with open("alice30.txt") as f:
 		cleanline = rawline.strip().split(' ')
 		for word in cleanline :
 			Trie = ADD_WORD(word.lower(), Trie)
+print wc
