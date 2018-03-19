@@ -118,10 +118,10 @@ def DELETE(pos, lst) :
 def printList(lst) :
 	temp = FIRST(lst)
 	if temp is None :
-		print "empty",
+		print("empty")
 	else :
 		while temp :
-			print temp,
+			print(temp)
 			temp = temp.nxt
 
 def ADD_CHILD(letter, lst) :
