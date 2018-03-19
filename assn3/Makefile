@@ -14,7 +14,7 @@ trie:
 	
 adjmatrix:
 	g++ adjmatrix.cpp -o adjmatrix
-	./adjmatric
+	./adjmatrix
 	
 pot:
 	g++ pot.cpp -o pot
