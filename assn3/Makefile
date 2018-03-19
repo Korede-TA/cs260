@@ -10,16 +10,21 @@ bst:
 	@python3 bst.py
 
 trie:
-	@python3 trie.py
-	
+	@python trie.py
+
 adjmatrix:
 	g++ adjmatrix.cpp -o adjmatrix
+<<<<<<< HEAD
 	./adjmatrix
 	
+=======
+	./adjmatric
+
+>>>>>>> b2b22014bced857949349848cd3ab1959cb93a05
 pot:
 	g++ pot.cpp -o pot
 	./pot
-	
+
 floyd:
 	@python3 floyd.py
 
