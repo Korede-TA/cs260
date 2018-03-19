@@ -1,0 +1,9 @@
+Experiment with open hash table with size 10:
+Average time(in seconds) took to insert 4 items to size 10 is: 0.0035555611742201275
+Average time(in seconds) took to delete 4 items to size 10 is: 0.0014814838225917228
+
+Experiment with open hash table with size 1000:
+Average time(in seconds) took to insert 4 items to size 1000 is: 0.002666670880665167
+Average time(in seconds) took to delete 4 items to size 1000 is: 0.0014814838225918076
+
+Looks like the best deletion time for #4 is 0.001481 seconds
