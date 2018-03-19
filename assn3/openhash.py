@@ -17,10 +17,11 @@ class OpenHash:
 			else:
 				i+=1
 
+	# to get the hash of a key
 	def _getHash(self, key):
 		return ord(key[0])%len(self.ht)
 
-	# @staticmethod
+	# insert a ket and a value ot the hash table
 	def insert(self, x, h):
 		i = self._getHash(x)
 		c = 0
@@ -33,7 +34,7 @@ class OpenHash:
 		self.icount += c
 		# print(self.icount)
 
-	# @staticmethod
+	# delete an item using it's key from the hash table
 	def delete(self, x):
 		i = self._getHash(x)
 		c = 0
@@ -48,21 +49,12 @@ class OpenHash:
 				self.dcount += c
 		print('Key not in HashTable')
 
+	# Prints all the items in the hashtable with something in it
 	def printAll(self):
 		for i in range(0, len(self.ht)):
 			hash = self.ht[i]
 			if len(hash)>0:
 				print("index is: "+str(str(i))+" key is: \""+hash[0]+"\" hash is: \""+hash[1]+"\"")
-
-
-	# @staticmethod
-	# def MEMBER(x, H):
-	#
-	#
-	# @staticmethod
-	# def MAKENULL(H):
-	#    pass
-
 
 if __name__ == "__main__":
 	dict = OpenHash(10)
