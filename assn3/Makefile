@@ -7,7 +7,7 @@ closedhash:
 	@python3 closedhash.py
 
 bst:
-	@python3 bst.py
+	@python bst.py
 
 trie:
 	@python trie.py
