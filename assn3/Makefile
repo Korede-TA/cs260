@@ -14,13 +14,8 @@ trie:
 
 adjmatrix:
 	g++ adjmatrix.cpp -o adjmatrix
-<<<<<<< HEAD
 	./adjmatrix
-	
-=======
-	./adjmatric
 
->>>>>>> b2b22014bced857949349848cd3ab1959cb93a05
 pot:
 	g++ pot.cpp -o pot
 	./pot
